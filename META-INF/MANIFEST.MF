@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+ConnectorBundle-ConnectorClass: com.evolveum.polygon.scimrest.groovy.impl.ManifestBasedConnector
+ConnectorBundle-FrameworkVersion: 1.7.0.0-SNAPSHOT
+ConnectorBundle-Name: com.evolveum.polygon.scimrest.open-project-noclass
+ConnectorBundle-Version: 1.3
+

@@ -1,0 +1,36 @@
+{
+    "application": {
+        "name" : "Open-Project",
+        "description": "Powerful classic, agile or hybrid project management in a secure environment."
+    },
+    "groupId": "com.evolveum.polygon",
+    "artifactId": "open-project",
+    "version": "1.2.7.2",
+    "template": {
+        "groupId": "com.evolveum.polygon.scimrest",
+        "artifactId": "connector-scimrest-generic",
+        "version": "0.1-SNAPSHOT"
+    },
+    "schema" : [
+        { "script": "User.connid.schema.groovy" },
+        { "script": "User.native.schema.groovy" },
+        { "script": "Group.native.schema.groovy" },
+        { "script": "Group.connid.schema.groovy" },
+        { "script": "Project.native.schema.groovy" },
+        { "script": "Project.connid.schema.groovy" },
+        { "script": "Role.native.schema.groovy" },
+        { "script": "Role.connid.schema.groovy" },
+        { "script": "Formattable.native.schema.groovy" },
+        { "script": "Membership.native.schema.groovy" },
+        { "script": "Membership.connid.schema.groovy" },
+        { "script": "associations.schema.groovy" }
+    ],
+    "operation" : [
+        { "script": "authorization.op.groovy" },
+        { "script": "User.search.groovy" },
+        { "script": "Group.search.groovy" },
+        { "script": "Project.search.groovy" },
+        { "script": "Role.search.groovy" },
+        { "script": "Membership.search.groovy" }
+    ]
+}
