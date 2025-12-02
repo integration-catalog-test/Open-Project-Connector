@@ -1,2 +1,2 @@
 # Open-Project-Connector
-Release 1.3.5
+Release 1.3.8
