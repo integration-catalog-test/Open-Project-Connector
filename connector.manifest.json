@@ -10,7 +10,7 @@
         "template": {
             "groupId": "com.evolveum.polygon.scimrest",
             "artifactId": "connector-scimrest-generic",
-            "version": "0.2-SNAPSHOT"
+            "version": "0.1-SNAPSHOT"
         },
         "schema": [
             {
